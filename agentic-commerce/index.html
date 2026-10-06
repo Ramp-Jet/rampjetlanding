@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<!-- Google tag (gtag.js) — same property as the homepage -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-ZZFPZGVQ6W"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-ZZFPZGVQ6W');
+</script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Agentic Commerce Brief, Oct 2026: free 20-page research brief | RAMPJET</title>
+<meta name="description" content="Free 20-page research brief on AI agents and spending. Discovery through AI is booming, checkout inside agents is stalling, Instinct's $1B-a-year claim is founder-reported, and agent crypto payments total about $15M. Every number sourced." />
+<link rel="canonical" href="https://rampjet.ai/agentic-commerce/" />
+
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="RAMPJET" />
+<meta property="og:url" content="https://rampjet.ai/agentic-commerce/" />
+<meta property="og:title" content="Agentic Commerce Brief, Oct 2026 (free, 20 pages)" />
+<meta property="og:description" content="AI sends the shopper. The store still gets the sale. What the data says about AI agents and spending, with every number sourced." />
+<meta property="og:image" content="https://rampjet.ai/agentic-commerce/agentic-commerce-brief-social-share-card-1200x630.jpg" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+<meta property="og:image:alt" content="Cover of the Agentic Commerce Brief, Oct 2026: Discovery Booms. Checkout Lags." />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Agentic Commerce Brief, Oct 2026 (free, 20 pages)" />
+<meta name="twitter:description" content="AI sends the shopper. The store still gets the sale. What the data says about AI agents and spending." />
+<meta name="twitter:image" content="https://rampjet.ai/agentic-commerce/agentic-commerce-brief-social-share-card-1200x630.jpg" />
+
+<link rel="preload" as="image" href="agentic-commerce-brief-cover-page.webp" fetchpriority="high" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..900;1,9..144,300..900&family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+/* Palette and type match the homepage (index.html / BUILD.md) */
+:root {
+  --cream: #f4efe6;
+  --cream-deep: #ebe4d6;
+  --ink: #1a1a1a;
+  --ink-soft: #2c2926;
+  --muted: #6b655c;
+  --line: #d9d2c4;
+  --accent: #e94b35;
+  --accent-deep: #c93a25;
+  --accent-soft: #fae3dd;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+/* Classes below set display, so make the hidden attribute always win */
+[hidden] { display: none !important; }
+
+body {
+  background: var(--cream);
+  color: var(--ink);
+  font-family: 'Instrument Sans', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+}
+
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  background-image:
+    radial-gradient(circle at 20% 80%, rgba(233, 75, 53, 0.04) 0%, transparent 50%),
+    radial-gradient(circle at 80% 20%, rgba(233, 75, 53, 0.05) 0%, transparent 50%);
+  pointer-events: none;
+  z-index: 0;
+}
+
+a { color: inherit; }
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 16px;
+  position: relative;
+  z-index: 1;
+}
+
+/* NAV — logo only; nothing to click away to */
+.lp-nav {
+  padding: 14px 0 10px;
+}
+
+.logo {
+  font-family: 'Fraunces', serif;
+  font-size: 21px;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  text-decoration: none;
+  color: var(--ink);
+}
+
+.slash {
+  color: var(--accent);
+  font-weight: 400;
+  margin: 0 -1px;
+}
+
+/* HERO — mobile first.
+   Order on a phone: eyebrow, headline, (cover thumbnail + subhead), form, bullets.
+   On desktop the brief visual moves to its own right-hand column. */
+.lp-hero {
+  display: grid;
+  grid-template-columns: 96px 1fr;
+  grid-template-areas:
+    "eyebrow eyebrow"
+    "title   title"
+    "visual  sub"
+    "form    form"
+    "bullets bullets"
+    "podcast podcast";
+  column-gap: 28px;
+  padding: 4px 0 40px;
+}
+
+.lp-eyebrow { grid-area: eyebrow; }
+.lp-title   { grid-area: title; }
+.lp-visual  { grid-area: visual; }
+.lp-sub     { grid-area: sub; }
+.lp-form-wrap { grid-area: form; }
+.lp-bullets { grid-area: bullets; }
+.lp-podcast { grid-area: podcast; }
+
+.lp-eyebrow {
+  justify-self: start;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 11px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--muted);
+  padding: 6px 12px;
+  background: var(--cream-deep);
+  border: 1px solid var(--line);
+  border-radius: 100px;
+  margin-bottom: 14px;
+}
+
+.lp-eyebrow .dot {
+  width: 6px;
+  height: 6px;
+  background: var(--accent);
+  border-radius: 50%;
+  flex: none;
+}
+
+.lp-title {
+  font-family: 'Fraunces', serif;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 1.0;
+  letter-spacing: -0.035em;
+  font-variation-settings: "opsz" 144;
+  margin-bottom: 16px;
+}
+
+.lp-title .accent {
+  font-style: italic;
+  color: var(--accent);
+  font-weight: 300;
+}
+
+.lp-sub {
+  font-size: 15px;
+  line-height: 1.45;
+  color: var(--ink-soft);
+  align-self: center;
+}
+
+.lp-sub strong { color: var(--ink); font-weight: 600; }
+
+/* Brief visual: cover in front, two inside pages fanned behind */
+.lp-visual {
+  position: relative;
+  align-self: center;
+  width: 100%;
+  aspect-ratio: 612 / 792;
+}
+
+.lp-visual img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: auto;
+  border-radius: 3px;
+  box-shadow: 0 10px 24px rgba(26, 26, 26, 0.20), 0 1px 3px rgba(26, 26, 26, 0.12);
+  background: var(--cream-deep);
+}
+
+.lp-visual .page-back  { transform: translate(14%, 4%) rotate(8deg); }
+.lp-visual .page-mid   { transform: translate(7%, 2%) rotate(3deg); }
+.lp-visual .page-cover { transform: rotate(-3deg); }
+
+.lp-visual-badge {
+  display: none;
+}
+
+/* FORM */
+.lp-form-wrap {
+  margin-top: 20px;
+}
+
+.lp-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.lp-input {
+  width: 100%;
+  padding: 15px 20px;
+  border-radius: 100px;
+  border: 1px solid var(--line);
+  background: #fffdf8;
+  color: var(--ink);
+  font-family: inherit;
+  font-size: 16px; /* 16px stops iOS zooming on focus */
+}
+
+.lp-input::placeholder { color: #9a9387; }
+
+.lp-input:focus {
+  outline: none;
+  border-color: var(--accent);
+  box-shadow: 0 0 0 3px rgba(233, 75, 53, 0.18);
+}
+
+.btn-primary {
+  background: var(--accent);
+  color: var(--cream);
+  padding: 15px 28px;
+  border-radius: 100px;
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: background 0.25s ease, transform 0.25s ease, box-shadow 0.25s ease;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  border: none;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.btn-primary:hover {
+  background: var(--accent-deep);
+  transform: translateY(-2px);
+  box-shadow: 0 12px 28px rgba(233, 75, 53, 0.25);
+}
+
+.btn-primary:focus-visible {
+  outline: 3px solid var(--ink);
+  outline-offset: 2px;
+}
+
+.btn-primary[disabled] {
+  opacity: 0.7;
+  cursor: progress;
+  transform: none;
+  box-shadow: none;
+}
+
+.btn-primary .arrow { transition: transform 0.25s ease; }
+.btn-primary:hover .arrow { transform: translateY(2px); }
+
+.lp-consent {
+  margin-top: 10px;
+  font-size: 12.5px;
+  line-height: 1.45;
+  color: var(--muted);
+}
+
+.lp-consent a { color: var(--ink-soft); }
+
+.lp-error {
+  margin-top: 10px;
+  font-size: 14px;
+  color: var(--accent-deep);
+  font-weight: 500;
+}
+
+.lp-error a { color: var(--accent-deep); }
+
+.lp-noscript {
+  margin-top: 10px;
+  font-size: 13px;
+  color: var(--muted);
+}
+
+/* THANK-YOU STATE */
+.lp-thanks {
+  background: var(--ink);
+  color: var(--cream);
+  border-radius: 20px;
+  padding: 22px 22px 20px;
+}
+
+.lp-thanks:focus { outline: none; }
+
+.lp-thanks-title {
+  font-family: 'Fraunces', serif;
+  font-size: 26px;
+  font-weight: 400;
+  letter-spacing: -0.02em;
+  line-height: 1.1;
+  margin-bottom: 8px;
+}
+
+.lp-thanks-title .accent { color: var(--accent); font-style: italic; font-weight: 300; }
+
+.lp-thanks p {
+  font-size: 15px;
+  color: rgba(244, 239, 230, 0.85);
+}
+
+.lp-thanks .btn-primary { margin-top: 14px; }
+
+.lp-thanks-fallback {
+  margin-top: 12px;
+  font-size: 14px;
+}
+
+.lp-thanks-fallback a { color: var(--cream); font-weight: 600; }
+
+/* BULLETS */
+.lp-bullets {
+  list-style: none;
+  margin-top: 28px;
+  display: grid;
+  gap: 14px;
+}
+
+.lp-bullets li {
+  position: relative;
+  padding-left: 30px;
+  font-size: 15px;
+  line-height: 1.45;
+  color: var(--ink-soft);
+}
+
+.lp-bullets li::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 2px;
+  width: 18px;
+  height: 18px;
+  border-radius: 6px;
+  background: var(--accent-soft);
+}
+
+.lp-bullets li::after {
+  content: '';
+  position: absolute;
+  left: 6px;
+  top: 6px;
+  width: 6px;
+  height: 9px;
+  border: solid var(--accent);
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+}
+
+.lp-bullets strong { color: var(--ink); font-weight: 600; }
+
+.lp-podcast {
+  margin-top: 24px;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 12px;
+  letter-spacing: 0.04em;
+  color: var(--muted);
+}
+
+.lp-podcast a { color: var(--ink-soft); }
+
+/* FOOTER */
+footer {
+  border-top: 1px solid var(--line);
+  padding: 24px 0 32px;
+  position: relative;
+  z-index: 1;
+}
+
+.footer-text {
+  font-size: 13px;
+  color: var(--muted);
+  text-align: center;
+}
+
+.footer-text a { color: var(--muted); }
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+/* Wider phones: input + button on one row */
+@media (min-width: 560px) {
+  .container { padding: 0 24px; }
+  .lp-form { flex-direction: row; }
+  .lp-input { flex: 1; min-width: 0; }
+  .lp-title { font-size: 46px; }
+  .lp-hero { grid-template-columns: 130px 1fr; column-gap: 36px; }
+  .lp-sub { font-size: 17px; }
+}
+
+/* DESKTOP — copy left, brief visual right, everything above a 900px fold */
+@media (min-width: 960px) {
+  .container { padding: 0 40px; }
+  .lp-nav { padding: 28px 0 8px; }
+  .logo { font-size: 24px; }
+  .lp-hero {
+    grid-template-columns: minmax(0, 1fr) 420px;
+    grid-template-areas:
+      "eyebrow visual"
+      "title   visual"
+      "sub     visual"
+      "bullets visual"
+      "form    visual"
+      "podcast visual";
+    grid-template-rows: auto auto auto auto auto 1fr;
+    column-gap: 72px;
+    padding: 24px 0 56px;
+  }
+  .lp-eyebrow { font-size: 12px; padding: 8px 16px; margin-bottom: 20px; }
+  .lp-title { font-size: clamp(48px, 4.6vw, 64px); margin-bottom: 18px; }
+  .lp-sub { font-size: 19px; max-width: 600px; }
+  .lp-bullets { margin-top: 22px; gap: 10px; max-width: 620px; }
+  .lp-bullets li { font-size: 16px; }
+  .lp-form-wrap { margin-top: 26px; max-width: 560px; }
+  .lp-podcast { margin-top: 18px; }
+  .lp-visual {
+    align-self: center;
+    width: 330px;
+    justify-self: center;
+    margin: 0 40px 0 0;
+  }
+  .lp-visual img { border-radius: 6px; box-shadow: 0 24px 48px rgba(26, 26, 26, 0.22), 0 2px 6px rgba(26, 26, 26, 0.12); }
+  .lp-visual .page-back  { transform: translate(18%, 4%) rotate(8deg); }
+  .lp-visual .page-mid   { transform: translate(9%, 2%) rotate(3deg); }
+  .lp-visual .page-cover { transform: rotate(-4deg); }
+  .lp-visual-badge {
+    display: inline-block;
+    position: absolute;
+    left: -28px;
+    bottom: 36px;
+    z-index: 2;
+    background: var(--accent);
+    color: var(--cream);
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 12px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    padding: 8px 14px;
+    border-radius: 100px;
+    box-shadow: 0 8px 20px rgba(233, 75, 53, 0.3);
+    transform: rotate(-4deg);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { transition-duration: 0.001ms !important; }
+  .btn-primary:hover { transform: none; }
+}
+</style>
+</head>
+<body>
+
+<div class="container">
+  <nav class="lp-nav" aria-label="Site">
+    <a class="logo" href="/">RAMPJET</a>
+  </nav>
+
+  <main class="lp-hero">
+    <div class="lp-eyebrow"><span class="dot" aria-hidden="true"></span>Free brief · 20 pages · Oct 2026</div>
+
+    <h1 class="lp-title">AI sends the shopper. <span class="accent">The store still gets the sale.</span></h1>
+
+    <figure class="lp-visual">
+      <img class="page-back" src="agentic-commerce-brief-page-05-checkout-has-stalled.webp" width="480" height="621" alt="" decoding="async" />
+      <img class="page-mid" src="agentic-commerce-brief-page-03-instinct-claims.webp" width="480" height="621" alt="" decoding="async" />
+      <img class="page-cover" src="agentic-commerce-brief-cover-page.webp" width="720" height="932" alt="Cover of the Agentic Commerce Brief, Oct 2026: Discovery Booms. Checkout Lags." fetchpriority="high" />
+      <span class="lp-visual-badge" aria-hidden="true">Free PDF · 20 pages</span>
+    </figure>
+
+    <p class="lp-sub">The <strong>Agentic Commerce Brief</strong> sorts what's verified from what's hype about AI agents and spending. Every number is sourced.</p>
+
+    <div class="lp-form-wrap" id="get-the-brief">
+      <form class="lp-form" id="brief-form" action="https://formspree.io/f/xojryrdy" method="POST">
+        <label for="brief-email" class="sr-only">Email address</label>
+        <input type="email" id="brief-email" name="email" class="lp-input" placeholder="you@company.com" autocomplete="email" inputmode="email" required />
+        <input type="hidden" name="source" value="agentic-commerce-brief" />
+        <input type="hidden" name="_subject" value="Agentic Commerce brief download" />
+        <input type="hidden" name="consent" value="yes" />
+        <!-- Honeypot field to deter spam bots; real users won't fill this -->
+        <input type="text" name="_gotcha" tabindex="-1" autocomplete="off" class="sr-only" aria-hidden="true" />
+        <button type="submit" class="btn-primary" id="brief-submit">
+          Get the free brief
+          <svg class="arrow" width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+            <path d="M8 2v10M8 12l-4-4M8 12l4-4M3 14h10" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </button>
+      </form>
+      <p class="lp-consent" id="brief-consent">By getting the brief you agree to receive occasional emails from RampJet. Unsubscribe anytime. <a href="/privacy/">Privacy policy</a>.</p>
+      <p class="lp-error" id="brief-error" role="alert" hidden>That didn't go through. Please check your connection and try again in a minute.</p>
+      <noscript><p class="lp-noscript">JavaScript is off, so the download won't start by itself. After you submit, come back and <a href="agentic-commerce-research-brief-oct-2026.pdf">download the brief here</a>.</p></noscript>
+
+      <div class="lp-thanks" id="brief-thanks" tabindex="-1" hidden>
+        <p class="lp-thanks-title">It's yours. <span class="accent">Your download is starting.</span></p>
+        <p>The Agentic Commerce Brief, Oct 2026 (PDF, 1.3 MB). We'll send the occasional note when we publish new research.</p>
+        <p class="lp-thanks-fallback">Download didn't start? <a href="agentic-commerce-research-brief-oct-2026.pdf" download id="brief-download-link">Click here to download the brief</a>.</p>
+      </div>
+    </div>
+
+    <ul class="lp-bullets">
+      <li><strong>Discovery is working.</strong> Shoppers arriving from AI convert 60% better (Adobe), and Shopify's AI-driven orders tripled in a year.</li>
+      <li><strong>Checkout has stalled.</strong> Walmart converted 3x worse inside ChatGPT than on its own site, and OpenAI moved Instant Checkout back into retailer apps.</li>
+      <li><strong>Instinct's "$1B a year" is founder-reported.</strong> The funding is confirmed, the volume is unaudited. The brief runs the gut-check math.</li>
+      <li><strong>Agent crypto is tiny so far.</strong> Cleaned agent stablecoin payments total about $15M since May 2025, averaging 14 cents each.</li>
+    </ul>
+
+    <p class="lp-podcast">As discussed on our podcast. <a href="https://www.youtube.com/watch?v=9Puu1g2JUGk">Watch the episode</a></p>
+  </main>
+</div>
+
+<footer>
+  <div class="container">
+    <div class="footer-text">© 2026 RAMPJET · <a href="/">rampjet.ai</a> · <a href="/privacy/">Privacy</a></div>
+  </div>
+</footer>
+
+<script>
+  // Brief form: post to Formspree via fetch, then start the PDF download and
+  // swap to the thank-you state. Without JS the form posts normally.
+  (function () {
+    var form = document.getElementById('brief-form');
+    var submitBtn = document.getElementById('brief-submit');
+    var errorMsg = document.getElementById('brief-error');
+    var consent = document.getElementById('brief-consent');
+    var thanks = document.getElementById('brief-thanks');
+    var downloadLink = document.getElementById('brief-download-link');
+    if (!form || !window.fetch) return;
+
+    var defaultLabel = submitBtn.innerHTML;
+
+    function startDownload() {
+      var a = document.createElement('a');
+      a.href = downloadLink.href;
+      a.download = 'agentic-commerce-research-brief-oct-2026.pdf';
+      a.rel = 'noopener';
+      document.body.appendChild(a);
+      a.click();
+      a.remove();
+    }
+
+    function showError() {
+      errorMsg.hidden = false;
+      submitBtn.disabled = false;
+      submitBtn.innerHTML = defaultLabel;
+    }
+
+    form.addEventListener('submit', function (e) {
+      e.preventDefault();
+      if (!form.checkValidity()) { form.reportValidity(); return; }
+      errorMsg.hidden = true;
+      submitBtn.disabled = true;
+      submitBtn.textContent = 'Sending…';
+
+      fetch(form.action, {
+        method: 'POST',
+        body: new FormData(form),
+        headers: { 'Accept': 'application/json' }
+      }).then(function (res) {
+        if (!res.ok) { showError(); return; }
+        form.hidden = true;
+        consent.hidden = true;
+        thanks.hidden = false;
+        thanks.focus();
+        if (typeof gtag === 'function') {
+          gtag('event', 'generate_lead', {
+            lead_source: 'agentic-commerce-brief',
+            form_id: 'brief-form'
+          });
+        }
+        startDownload();
+      }).catch(showError);
+    });
+  })();
+</script>
+
+</body>
+</html>

@@ -1,6 +1,9 @@
 # rampjet.ai
 
-A single holding page. No nav, no other routes.
+A single holding page, plus two standalone routes it doesn't link to:
+
+- `/agentic-commerce/` — lead-magnet page for the podcast's agentic-commerce research brief (linked from the YouTube episode). Email → Formspree `xojryrdy` (`source=agentic-commerce-brief`), then the PDF downloads.
+- `/privacy/` — privacy policy for that email form (RAMP/JET LLC; unsubscribe by reply).
 
 - `index.html` — the page (self-contained CSS; Google Fonts for Instrument Serif and JetBrains Mono)
 - `mark.png` — the flywheel mark, used as both the hero graphic and the brand icon
